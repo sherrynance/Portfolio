@@ -1,0 +1,88 @@
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar a {
+  color: #293d3d;
+}
+
+.heading p {
+  font-size: 20px;
+}
+
+.heading {
+  background-image: url("images/mosaic.jpg");
+  background-color: #8DA9EE;
+  color: #293d3d
+}
+
+.icons {
+  font-size: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  border:2px solid #fff;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+}
+
+p {
+  font-size: 20px;
+  color: #293d3d;
+}
+
+.skills{
+  font-size: 55px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url("images/mosaic.jpg");
+  background-color: #8DA9EE;
+  color: #293d3d
+}
+
+.skills i {
+  padding-right: 25px;
+}
+
+.projects h1 {
+  padding-bottom: 20px;
+}
+
+.projects h3 {
+  padding-bottom: 10px;
+}
+
+.blog h1 {
+  padding-bottom: 20px;
+}
+
+.blog h3 {
+  padding-bottom: 10px;
+}
+
+footer {
+  margin-top: 10px;
+  background-image: url("images/mosaic.jpg");
+  background-color: #8DA9EE;
+  padding-top: 10px;  
+}
+
+footer a {
+  color: #293d3d;
+  font-size: 15px;
+}
+
+footer i {
+  padding-right: 15px;
+}
+
+
