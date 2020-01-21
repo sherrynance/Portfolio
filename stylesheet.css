@@ -79,6 +79,9 @@ p {
   padding-bottom: 10px;
 }
 
+.information a {
+  text-decoration: underline;
+}
 footer {
   margin-top: 10px;
   background-image: url("images/mosaic.jpg");
