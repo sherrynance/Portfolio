@@ -35,6 +35,16 @@ img {
   border-radius:25px;
 }
 
+a {
+  text-decoration: none;
+  color: #293d3d;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #293d3d;
+}
+
 p {
   font-size: 20px;
   color: #293d3d;
@@ -78,7 +88,7 @@ footer {
 
 footer a {
   color: #293d3d;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 footer i {
