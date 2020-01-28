@@ -95,8 +95,7 @@ p {
   text-decoration: underline;
 }
 
-button {
-  
+button {  
   background-color: #8DA9EE;
   color: #293d3d;
   padding: 15px 32px;
@@ -133,6 +132,32 @@ footer i {
   width: 90%;
   padding-bottom: 25px;
   padding-left: 25px;
+}
+
+.contact {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.contact h2 {
+  padding-bottom: 20px;
+}
+
+.contact p {
+  padding-bottom: 20px;
+}
+
+.button {
+  background-color: #8DA9EE;
+  color: #293d3d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 10px;
+  font-weight: bold;
 }
 
 
