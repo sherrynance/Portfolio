@@ -81,6 +81,8 @@ p {
 
 .projects img {
   box-shadow: 5px 5px 0 #fff, 10px 10px 0 rgba(0,0,0,0.2);
+  height: 250px;
+  width: 400px;
 }
 
 .projects h3 {
@@ -93,6 +95,8 @@ p {
 
 .blog img {
   box-shadow: 5px 5px 0 #fff, 10px 10px 0 rgba(0,0,0,0.2);
+  height: 250px;
+  width: 400px;
 }
 
 .blog h3 {
@@ -118,7 +122,11 @@ button {
 
 footer {
   margin-top: 10px;
+  background-image: url("images/rainbow-small.png");
   background-color: #8DA9EE;
+  color: #293d3d;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer a {
@@ -151,6 +159,16 @@ footer i {
 
 .contact p {
   padding-bottom: 20px;
+}
+
+.contact-heading {
+  background-image: url("images/rainbow-small.png");
+  background-color: #8DA9EE;
+  color: #293d3d;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .content{
