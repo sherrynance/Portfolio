@@ -12,23 +12,34 @@
 }
 
 .heading {
-  background-image: url("images/mainbackground.jpg");
+  background-image: url("images/rainbow.png");
   background-color: #8DA9EE;
   color: #293d3d;
-  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.about img {
-  border:1px solid #fff;
-  -moz-box-shadow: 5px 5px 3px #ccc;
-  -webkit-box-shadow: 5px 5px 3px #ccc;
-  box-shadow: 5px 5px 3px #ccc;
-  -moz-border-radius:15px;
-  -webkit-border-radius:15px;
-  border-radius:15px;
-  height: 325px;
-  width: 275px;
+.sketchy {
+  padding: 5px;
+  display: inline-block;
+  border: 3px solid #293d3d;
+  border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+  text-transform: uppercase;
+  position: relative;
 }
+  
+  &::before {
+      content: '';
+      border: 2px solid #293d3d;
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate3d(-50%, -50%, 0) scale(1.015) rotate(0.5deg);
+      border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
+  }
 
 .icons {
   font-size: 40px;
@@ -36,17 +47,7 @@
 
 h1 {
   text-align: center;
-  padding: 20px;
-}
-
-img {
-  border:1px solid #fff;
-  -moz-box-shadow: 5px 5px 3px #ccc;
-  -webkit-box-shadow: 5px 5px 3px #ccc;
-  box-shadow: 5px 5px 3px #ccc;
-  -moz-border-radius:15px;
-  -webkit-border-radius:15px;
-  border-radius:15px;
+  padding: 10px;
 }
 
 a {
@@ -69,14 +70,17 @@ p {
 }
 
 .skills img {
-  height: 200px;
-  width: 200px;
-  border: none;
+  height: 500px;
+  width: 500px;
 }
 
 .skills li {
   list-style-type: none;
   font-size: 25px;
+}
+
+.projects img {
+  box-shadow: 5px 5px 0 #fff, 10px 10px 0 rgba(0,0,0,0.2);
 }
 
 .projects h3 {
@@ -85,6 +89,10 @@ p {
 
 .blog {
   padding-bottom: 50px;
+}
+
+.blog img {
+  box-shadow: 5px 5px 0 #fff, 10px 10px 0 rgba(0,0,0,0.2);
 }
 
 .blog h3 {
@@ -110,9 +118,7 @@ button {
 
 footer {
   margin-top: 10px;
-  background-image: url("images/mainbackground.jpg");
   background-color: #8DA9EE;
-  padding-top: 10px;  
 }
 
 footer a {
@@ -146,22 +152,6 @@ footer i {
 .contact p {
   padding-bottom: 20px;
 }
-
-.button {
-  background-color: #8DA9EE;
-  color: #293d3d;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 10px;
-  border-radius: 10px;
-  font-weight: bold;
-}
-
-
-
 
 .content{
   width: 90%; 
